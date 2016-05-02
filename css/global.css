@@ -1,0 +1,112 @@
+/* Maintenance/Whitelist Style Sheet */
+/* Programmed by CSxKING of Electric Gaming. This is Copyright (C) Electric Gaming.
+You are required to keep this copyright notice upon use.
+Failure to do so may result in a DMCA takedown request.
+*/
+
+/* This is the colorful text-based buttons animation */
+@-webkit-keyframes fade {
+    0%   {background: red;}
+    25%  {background: blue;}
+    50%  {background: yellow;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+/* General Page Styling */
+
+body {
+  background-color: #1b1b30;
+  color: white;
+  font-size: 16px;
+}
+
+/* The Video Player */
+
+#player {
+  display: block;
+  width: 560px;
+  height: 316px;
+  background-color: black;
+  border: 2px lightpurple;
+  border-color: lightpurple;
+}
+
+/* Info Styling */
+#info {
+  position: relative;
+  top: 10px;
+  display: block;
+  background-color: #3f3f6b;
+  color: white;
+  width: 450px;
+  height: 95px;
+  z-index: 1;
+  text-align: center;
+  font-style: italic;
+  border: 3px solid #3f0a6b;
+}
+
+/* Align-To-Center Class */
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+/* The top part of the info box under the video */
+.infohead {
+  display: block;
+  background-color: #5959a3;
+  color: white;
+  width: 476px;
+  height: 35px;
+  z-index: 6;
+  position: relative;
+  bottom: 13px;
+  right: 13px;
+}
+
+/* Text styling for info box under the video */
+.headlabel,.infohead {
+  text-align: center;
+  font-style: italic;
+}
+
+/* Position the top of the info box properly. */
+.headlabel {
+  position: relative;
+  top: 8px;
+}
+
+/* The content of the info box under the video's styling */
+.contentlabel {
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+/* Link Styling */
+a {
+  color: #CCCCCC;
+}
+
+/* Center-Fix for the text-based buttons */
+.centerFix {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+/* Text-Button General Styling */
+.btnTxt {
+  text-decoration: underline;
+}
+
+/* Text Button On-Hover Styling */
+.btnTxt:hover {
+  animation: fade 2s infinite;
+  color: lightpurple;
+}
